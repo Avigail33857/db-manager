@@ -6,7 +6,7 @@ const express = require('express'),
 
 const COLUMNS_NAMES = [
     {name: 'name', title: 'Name'},
-    {name: 'type', title: 'Type', options: enums.promotionType},
+    {name: 'type', title: 'Type', options: Object.values(enums.promotionType)},
     {name: 'endDate', title: 'End Date', type: 'date'},
     {name: 'startDate', title: 'Start Date', type: 'date'},
     {name: 'userGroupName', title: 'User Group'}
