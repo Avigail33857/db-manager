@@ -1,0 +1,7 @@
+{
+  "promotionType": {
+    "BASIC": "Basic",
+    "COMMON": "Common",
+    "EPIC": "Epic"
+  }
+}

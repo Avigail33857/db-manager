@@ -1,0 +1,7 @@
+{
+  "dbConfig": {
+    "user": "Avigail",
+    "pass": "avigailMongoDB",
+    "dbName": "moonActive"
+  }
+}
